@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>방명록</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">🌞방명록 작성</h1>
+    <div id="container">
+      <label for="writer">작성자</label>
+      <input type="text" id="writer" />
+      <label for="content">방명록</label>
+      <textarea id="content"></textarea>
+      <div id="buttonContainer">
+        <button class="btn">작성</button>
+        <button id="listButton" class="btn">목록</button>
+      </div>
+      <div id="listContainer"></div>
+    </div>
+
+    <script src="../public/index_bundle.js"></script>
+    <script src="./fetch.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
